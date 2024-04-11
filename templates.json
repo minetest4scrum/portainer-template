@@ -58,7 +58,7 @@
             "preset": false
         }
       ],
-      "image": "kimragnaschwerdtcap/minetest-wrapper",
+      "image": "minetest4scrum/minetest-wrapper",
       "logo": "https://de.wikipedia.org/wiki/Datei:Minetest_logo.svg",
       "platform": "linux",
       "ports": [
