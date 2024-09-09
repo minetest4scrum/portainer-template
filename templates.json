@@ -61,7 +61,7 @@
         }
       ],
       "image": "minetest4scrum/minetest-wrapper",
-      "logo": "https://de.wikipedia.org/wiki/Datei:Minetest_logo.svg",
+      "logo": "https://media.istockphoto.com/id/1313394214/de/vektor/aquarell-collage-gro%C3%9Fen-baum.jpg?s=1024x1024&w=is&k=20&c=Db034gsPlLQLDnpoUb6wpYDmKoWLham3hEpPZ-ijlFE=",
       "platform": "linux",
       "ports": [
         "30000:30000/udp"
@@ -136,7 +136,7 @@
         }
       ],
       "image": "minetest4scrum/minetest-wrapper:5.9.0",
-      "logo": "https://de.wikipedia.org/wiki/Datei:Minetest_logo.svg",
+      "logo": "https://media.istockphoto.com/id/1297706369/de/vektor/sun-paint-pinselstriche-auf-wei%C3%9Fem-hintergrund-vektor-illustration.jpg?s=1024x1024&w=is&k=20&c=icX-sQof9kBNoRLhEPSnwsF1CIKyoF6U4R4mHgeby5w=",
       "platform": "linux",
       "ports": [
         "30000:30000/udp"
