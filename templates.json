@@ -2,60 +2,62 @@
   "version": "2",
   "templates": [
     {
-        "categories": ["Other"],
-        "description": "Minetest Server",
-        "env": [
-          {
-            "default": "Minetest@Capgemini",
-            "label": "Message of the day",
-            "name": "MOTD",
-            "preset": false
+      "categories": [
+        "Other"
+      ],
+      "description": "Minetest Server",
+      "env": [
+        {
+          "default": "Minetest@Capgemini",
+          "label": "Message of the day",
+          "name": "MOTD",
+          "preset": false
         },
         {
-            "default": "v7",
-            "label": "Karte",
-            "name": "MAPGEN",
-            "select": [
-                {
-                  "text": "Standardkarte",
-                  "value": "v7",
-                  "default": true
-                },
-                {
-                  "text": "flach",
-                  "value": "flat"
-                }
-              ]
+          "default": "v7",
+          "label": "Karte",
+          "name": "MAPGEN",
+          "select": [
+            {
+              "text": "Standardkarte",
+              "value": "v7",
+              "default": true
+            },
+            {
+              "text": "flach",
+              "value": "flat"
+            }
+          ]
         },
         {
-            "default": "<1 Trainername>",
-            "label": "Admin",
-            "name": "ADMIN",
-            "preset": false,
-            "description" : "1 Trainername"
+          "default": "<1 Trainername>",
+          "label": "Admin",
+          "name": "ADMIN",
+          "preset": false,
+          "description": "1 Trainername"
         },
         {
-            "default": "50",
-            "label": "Maximale User",
-            "name": "MAX_USERS",
-            "preset": false
-        }, 
-        {
-            "default": "Minetest@Capgemini",
-            "label": "Servername",
-            "name": "SERVER_NAME",
-            "preset": false
+          "default": "50",
+          "label": "Maximale User",
+          "name": "MAX_USERS",
+          "preset": false
         },
         {
-            "default": "Beschreibung des Servers",
-            "label": "Serverbeschreibung",
-            "name": "SERVER_DESCRIPTION",
-            "preset": false
+          "default": "Minetest@Capgemini",
+          "label": "Servername",
+          "name": "SERVER_NAME",
+          "preset": false
         },
         {
-            "label": "Passwort",
-            "name": "PASSWORD",
-            "preset": false
+          "default": "Beschreibung des Servers",
+          "label": "Serverbeschreibung",
+          "name": "SERVER_DESCRIPTION",
+          "preset": false
+        },
+        {
+          "label": "Passwort",
+          "name": "PASSWORD",
+          "preset": false
         }
       ],
       "image": "minetest4scrum/minetest-wrapper",
@@ -66,7 +68,82 @@
       ],
       "restart_policy": "unless-stopped",
       "title": "Minetest Server",
-      "type": 1      
+      "type": 1
+    },
+    {
+      "categories": [
+        "Other"
+      ],
+      "description": "Minetest Server Version 5.9.0 mit Tutorial",
+      "env": [
+        {
+          "default": "Minetest@Capgemini",
+          "label": "Message of the day",
+          "name": "MOTD",
+          "preset": false
+        },
+        {
+          "default": "v7",
+          "label": "Karte",
+          "name": "MAPGEN",
+          "preset": true
+        },
+        {
+          "default": "<1 Trainername>",
+          "label": "Admin",
+          "name": "ADMIN",
+          "preset": false,
+          "description": "1 Trainername"
+        },
+        {
+          "default": "50",
+          "label": "Maximale User",
+          "name": "MAX_USERS",
+          "preset": false
+        },
+        {
+          "default": "Minetest@Capgemini",
+          "label": "Servername",
+          "name": "SERVER_NAME",
+          "preset": false
+        },
+        {
+          "default": "Beschreibung des Servers",
+          "label": "Serverbeschreibung",
+          "name": "SERVER_DESCRIPTION",
+          "preset": false
+        },
+        {
+          "label": "Passwort",
+          "name": "PASSWORD",
+          "preset": false
+        },
+        {
+          "label": "Spiel",
+          "name": "GAME",
+          "preset": true,
+          "select": [
+            {
+              "text": "minetest_game",
+              "value": "minetest_game",
+              "default": true
+            },
+            {
+              "text": "tutorial",
+              "value": "tutorial"
+            }
+          ]
+        }
+      ],
+      "image": "minetest4scrum/minetest-wrapper:5.9.0",
+      "logo": "https://de.wikipedia.org/wiki/Datei:Minetest_logo.svg",
+      "platform": "linux",
+      "ports": [
+        "30000:30000/udp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Minetest Server Version 5.9.0",
+      "type": 1
     }
   ]
 }
