@@ -133,6 +133,12 @@
               "value": "tutorial"
             }
           ]
+        },
+        {
+          "default": "--gameid <GAME> --port 30000",
+          "label": "Serverbeschreibung",
+          "name": "CLI_ARGS",
+          "preset": false
         }
       ],
       "image": "minetest4scrum/minetest-wrapper:5.9.0",
