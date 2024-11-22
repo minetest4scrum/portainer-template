@@ -141,10 +141,10 @@
           "preset": false
         },
         {
-          "default": "IP=20.79.201.3 Port=<das was du in den erweiterten Einstellungen beim Hostport wählst (30000-30010)>",
+          "default": "IP=20.79.201.3 Port='das was du in den erweiterten Einstellungen beim Hostport wählst (30000-30010)'",
           "label": "Verbindungshinweise",
           "name": "CONNECTION_HINTS",
-          "preset": true
+          "preset": false
         }
       ],
       "image": "minetest4scrum/minetest-wrapper:5.9.0",
