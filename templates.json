@@ -136,9 +136,15 @@
         },
         {
           "default": "--gameid <GAME> --port 30000",
-          "label": "Serverbeschreibung",
+          "label": "CLI Argumente: bitte ersetze <GAME> mit der Auswahl aus der Dropdownliste 'Spiel'",
           "name": "CLI_ARGS",
           "preset": false
+        },
+        {
+          "default": "IP=20.79.201.3 Port=<das was du in den erweiterten Einstellungen beim Hostport wählst (30000-30010)>",
+          "label": "Verbindungshinweise",
+          "name": "CONNECTION_HINTS",
+          "preset": true
         }
       ],
       "image": "minetest4scrum/minetest-wrapper:5.9.0",
