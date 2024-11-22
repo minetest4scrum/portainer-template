@@ -141,9 +141,15 @@
           "preset": false
         },
         {
-          "default": "IP=20.79.201.3 Port='das was du in den erweiterten Einstellungen beim Hostport wählst (30000-30010)'",
-          "label": "Verbindungshinweise",
-          "name": "CONNECTION_HINTS",
+          "default": "20.79.201.3",
+          "label": "IP",
+          "name": "IP",
+          "preset": false
+        },
+        {
+          "default": "30000 bis 30010, je nachdem was du in den erweiterten Einstellungen bei Hostport wählst",
+          "label": "Port",
+          "name": "PORT",
           "preset": false
         }
       ],
