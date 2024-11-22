@@ -251,11 +251,11 @@
           "description": "aktuell gibt es minetest_game als Standard und Tutorial"
         },
         {
-          "default": "--gameid <GAME> --port 30000",
-          "label": "CLI Argumente: bitte ersetze <GAME> mit der Auswahl aus der Dropdownliste 'Spiel'",
+          "default": "--gameid minetest_game --port 30000",
+          "label": "CLI Argumente: bitte ersetze minetest_game mit der Auswahl aus der Dropdownliste 'Spiel'",
           "name": "CLI_ARGS",
           "preset": false,
-          "description": "bitte ersetze <GAME> mit der Auswahl aus der Dropdownliste 'Spiel'"
+          "description": "bitte ersetze minetest_game mit der Auswahl aus der Dropdownliste 'Spiel'"
         },
         {
           "label": "Capgemini Interact Privileges",
