@@ -80,13 +80,15 @@
           "default": "20.79.201.3",
           "label": "IP: nicht änderbar",
           "name": "IP",
-          "preset": false
+          "preset": false,
+          "description": "statische IP, die durch Microsoft Azure gegeben ist"
         },
         {
           "default": "30000 bis 30010",
           "label": "Port: je nachdem was du in den erweiterten Einstellungen bei Hostport wählst",
           "name": "PORT",
-          "preset": false
+          "preset": false,
+          "description": "Port, der über Hostport ausgewählt wurde, verfügbar ist 30 000 - 30 010"
         },
         {
           "default": "Minetest@Capgemini",
@@ -98,14 +100,15 @@
           "default": "v7",
           "label": "Karte",
           "name": "MAPGEN",
-          "preset": true
+          "preset": true,
+          "description": "Wert für Kartengenerierung, sollte nicht geändert werden"
         },
         {
           "default": "<1 Trainername>",
           "label": "Admin",
           "name": "ADMIN",
           "preset": false,
-          "description": "1 Trainername"
+          "description": "1 Trainername, der Admin sein wird"
         },
         {
           "default": "50",
@@ -128,7 +131,8 @@
         {
           "label": "Passwort",
           "name": "PASSWORD",
-          "preset": false
+          "preset": false,
+          "description": "ganz wichtig zu setzen, der einzige Schutz des Servers"
         },
         {
           "label": "Spiel",
@@ -144,13 +148,15 @@
               "text": "tutorial",
               "value": "tutorial"
             }
-          ]
+          ],
+          "description": "aktuell gibt es minetest_game als Standard und Tutorial"
         },
         {
           "default": "--gameid <GAME> --port 30000",
           "label": "CLI Argumente: bitte ersetze <GAME> mit der Auswahl aus der Dropdownliste 'Spiel'",
           "name": "CLI_ARGS",
-          "preset": false
+          "preset": false,
+          "description": "bitte ersetze <GAME> mit der Auswahl aus der Dropdownliste 'Spiel'"
         },
         {
           "label": "Capgemini Interact Privileges",
@@ -166,7 +172,8 @@
               "text": "true",
               "value": "true"
             }
-          ]
+          ],
+          "description": "Nutze die Capgemini Interact Privileges, wenn du aktiv steuern willst, wann Spieler bauen können oder nicht."
         }
       ],
       "image": "minetest4scrum/minetest-wrapper:5.9.0",
