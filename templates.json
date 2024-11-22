@@ -77,6 +77,18 @@
       "description": "Minetest Server Version 5.9.0 mit Tutorial",
       "env": [
         {
+          "default": "20.79.201.3",
+          "label": "IP",
+          "name": "IP",
+          "preset": false
+        },
+        {
+          "default": "30000 bis 30010, je nachdem was du in den erweiterten Einstellungen bei Hostport wählst",
+          "label": "Port",
+          "name": "PORT",
+          "preset": false
+        },
+        {
           "default": "Minetest@Capgemini",
           "label": "Message of the day",
           "name": "MOTD",
@@ -138,18 +150,6 @@
           "default": "--gameid <GAME> --port 30000",
           "label": "CLI Argumente: bitte ersetze <GAME> mit der Auswahl aus der Dropdownliste 'Spiel'",
           "name": "CLI_ARGS",
-          "preset": false
-        },
-        {
-          "default": "20.79.201.3",
-          "label": "IP",
-          "name": "IP",
-          "preset": false
-        },
-        {
-          "default": "30000 bis 30010, je nachdem was du in den erweiterten Einstellungen bei Hostport wählst",
-          "label": "Port",
-          "name": "PORT",
           "preset": false
         }
       ],
