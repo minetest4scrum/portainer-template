@@ -151,6 +151,22 @@
           "label": "CLI Argumente: bitte ersetze <GAME> mit der Auswahl aus der Dropdownliste 'Spiel'",
           "name": "CLI_ARGS",
           "preset": false
+        },
+        {
+          "label": "Capgemini Interact Privileges",
+          "name": "CAP_MOD",
+          "preset": true,
+          "select": [
+            {
+              "text": "false",
+              "value": "false",
+              "default": true
+            },
+            {
+              "text": "true",
+              "value": "true"
+            }
+          ]
         }
       ],
       "image": "minetest4scrum/minetest-wrapper:5.9.0",
