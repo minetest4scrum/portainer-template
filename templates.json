@@ -78,13 +78,13 @@
       "env": [
         {
           "default": "20.79.201.3",
-          "label": "IP",
+          "label": "IP: nicht änderbar",
           "name": "IP",
           "preset": false
         },
         {
-          "default": "30000 bis 30010, je nachdem was du in den erweiterten Einstellungen bei Hostport wählst",
-          "label": "Port",
+          "default": "30000 bis 30010",
+          "label": "Port: je nachdem was du in den erweiterten Einstellungen bei Hostport wählst",
           "name": "PORT",
           "preset": false
         },
