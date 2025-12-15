@@ -284,6 +284,105 @@
       "restart_policy": "unless-stopped",
       "title": "Minetest Server Version 5.10.0",
       "type": 1
+    },
+    {
+      "categories": [
+        "Other"
+      ],
+      "description": "Minetest Server Version 5.14.0 mit Tutorial",
+      "env": [
+        {
+          "default": "20.79.201.3",
+          "label": "IP: nicht änderbar",
+          "name": "IP",
+          "preset": false,
+          "description": "statische IP, die durch Microsoft Azure gegeben ist"
+        },
+        {
+          "default": "30000 bis 30010",
+          "label": "Port: je nachdem was du in den erweiterten Einstellungen bei Hostport wählst",
+          "name": "PORT",
+          "preset": false,
+          "description": "Port, der über Hostport ausgewählt wurde, verfügbar ist 30 000 - 30 010"
+        },
+        {
+          "default": "Minetest@Capgemini",
+          "label": "Message of the day",
+          "name": "MOTD",
+          "preset": false
+        },
+        {
+          "default": "v7",
+          "label": "Karte",
+          "name": "MAPGEN",
+          "preset": true,
+          "description": "Wert für Kartengenerierung, sollte nicht geändert werden"
+        },
+        {
+          "default": "<1 Trainername>",
+          "label": "Admin",
+          "name": "ADMIN",
+          "preset": false,
+          "description": "1 Trainername, der Admin sein wird"
+        },
+        {
+          "default": "50",
+          "label": "Maximale User",
+          "name": "MAX_USERS",
+          "preset": false
+        },
+        {
+          "default": "Minetest@Capgemini",
+          "label": "Servername",
+          "name": "SERVER_NAME",
+          "preset": false
+        },
+        {
+          "default": "Beschreibung des Servers",
+          "label": "Serverbeschreibung",
+          "name": "SERVER_DESCRIPTION",
+          "preset": false
+        },
+        {
+          "label": "Passwort",
+          "name": "PASSWORD",
+          "preset": false,
+          "description": "ganz wichtig zu setzen, der einzige Schutz des Servers"
+        },
+        {
+          "label": "Spiel",
+          "name": "GAME",
+          "preset": true,
+          "select": [
+            {
+              "text": "minetest_game",
+              "value": "minetest_game",
+              "default": true
+            },
+            {
+              "text": "tutorial",
+              "value": "tutorial"
+            }
+          ],
+          "description": "aktuell gibt es minetest_game als Standard und Tutorial"
+        },
+        {
+          "default": "--gameid minetest_game --port 30000",
+          "label": "CLI Argumente: bitte ersetze minetest_game mit der Auswahl aus der Dropdownliste 'Spiel'",
+          "name": "CLI_ARGS",
+          "preset": false,
+          "description": "bitte ersetze minetest_game mit der Auswahl aus der Dropdownliste 'Spiel'"
+        }        
+      ],
+      "image": "minetest4scrum/minetest-wrapper:5.14.0",
+      "logo": "https://media.istockphoto.com/id/1297706369/de/vektor/sun-paint-pinselstriche-auf-wei%C3%9Fem-hintergrund-vektor-illustration.jpg?s=1024x1024&w=is&k=20&c=icX-sQof9kBNoRLhEPSnwsF1CIKyoF6U4R4mHgeby5w=",
+      "platform": "linux",
+      "ports": [
+        "30000:30000/udp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Minetest Server Version 5.14.0",
+      "type": 1
     }
   ]
 }
